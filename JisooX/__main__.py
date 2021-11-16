@@ -41,13 +41,13 @@ from JisooX.modules.connection import connect_button
 
 
 PM_START_TEXT = """
-[🌸](https://te.legra.ph/file/f0256f513f0d27cb74d65.jpg) *{}* 𝓱𝓮𝔂 𝓽𝓱𝓮𝓻𝓮 𝓶𝔂 𝓷𝓪𝓶𝓮 𝓲𝓼 *{}* 𝓲 𝓪𝓶 𝓪 𝓹𝓸𝔀𝓮𝓻𝓯𝓾𝓵𝓵 𝓽𝓮𝓵𝓮𝓰𝓻𝓪𝓶 𝓶𝓪𝓷𝓪𝓰𝓮𝓻 𝓫𝓸𝓽 𝔀𝓲𝓽𝓱 𝓬𝓸𝓸𝓵 𝓶𝓸𝓭𝓾𝓵𝓮𝓼. 𝓯𝓮𝓵𝓵 𝓯𝓻𝓮𝓮 𝓽𝓸 𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹𝓼 𝓱𝓲𝓽 𝓱𝓮𝓵𝓹 𝓫𝓾𝓽𝓽𝓸𝓷 𝓽𝓸 𝓴𝓷𝓸𝔀 𝓶𝔂 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼🌸_
+[🌸](https://te.legra.ph/file/c95f4ae97232f2675e081.jpg) *{}* 𝓱𝓮𝔂 𝓽𝓱𝓮𝓻𝓮 𝓶𝔂 𝓷𝓪𝓶𝓮 𝓲𝓼 *{}* 𝓲 𝓪𝓶 𝓪 𝓹𝓸𝔀𝓮𝓻𝓯𝓾𝓵𝓵 𝓽𝓮𝓵𝓮𝓰𝓻𝓪𝓶 𝓶𝓪𝓷𝓪𝓰𝓮𝓻 𝓫𝓸𝓽 𝔀𝓲𝓽𝓱 𝓬𝓸𝓸𝓵 𝓶𝓸𝓭𝓾𝓵𝓮𝓼. 𝓯𝓮𝓵𝓵 𝓯𝓻𝓮𝓮 𝓽𝓸 𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹𝓼 𝓱𝓲𝓽 𝓱𝓮𝓵𝓹 𝓫𝓾𝓽𝓽𝓸𝓷 𝓽𝓸 𝓴𝓷𝓸𝔀 𝓶𝔂 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼🌸_
 _𝓶𝓪𝓲𝓷𝓽𝓪𝓲𝓷𝓮𝓭 𝓫𝔂_ [{}](tg://user?id={})
 """
 
 
 HELP_STRINGS = """
-[🌸](https://te.legra.ph/file/cc60deee8b07c04c28bef.jpg) 𝓱𝓮𝔂 𝓽𝓱𝓮𝓻𝓮 𝓶𝔂 𝓷𝓪𝓶𝓮 𝓲𝓼 *{}* 𝓲 𝓪𝓶 𝓪 𝓹𝓸𝔀𝓮𝓻𝓯𝓾𝓵𝓵 𝓽𝓮𝓵𝓮𝓰𝓻𝓪𝓶 𝓶𝓪𝓷𝓪𝓰𝓮𝓻 𝓫𝓸𝓽 𝔀𝓲𝓽𝓱 𝓬𝓸𝓸𝓵 𝓶𝓸𝓭𝓾𝓵𝓮𝓼.𝓲𝓯 𝓯𝓪𝓬𝓲𝓷𝓰 𝓪𝓷𝔂 𝓲𝓼𝓼𝓾𝓮 [𝓳𝓸𝓲𝓷](t.me/DARKAMANSUPPORT)🌸
+[🌸](https://te.legra.ph/file/c95f4ae97232f2675e081.jpg) 𝓱𝓮𝔂 𝓽𝓱𝓮𝓻𝓮 𝓶𝔂 𝓷𝓪𝓶𝓮 𝓲𝓼 *{}* 𝓲 𝓪𝓶 𝓪 𝓹𝓸𝔀𝓮𝓻𝓯𝓾𝓵𝓵 𝓽𝓮𝓵𝓮𝓰𝓻𝓪𝓶 𝓶𝓪𝓷𝓪𝓰𝓮𝓻 𝓫𝓸𝓽 𝔀𝓲𝓽𝓱 𝓬𝓸𝓸𝓵 𝓶𝓸𝓭𝓾𝓵𝓮𝓼.𝓲𝓯 𝓯𝓪𝓬𝓲𝓷𝓰 𝓪𝓷𝔂 𝓲𝓼𝓼𝓾𝓮 [𝓳𝓸𝓲𝓷](t.me/DARKAMANSUPPORT)🌸
  ✘ /start ➪ 𝓼𝓽𝓪𝓻𝓽 𝓽𝓱𝓮 𝓫𝓸𝓽
  ✘ /help ➪ 𝓹𝓶'𝓼 𝔂𝓸𝓾 𝓽𝓱𝓲𝓼 𝓶𝓮𝓼𝓼𝓪𝓰𝓮.
  ✘ /help ➪ <𝓶𝓸𝓭𝓾𝓵𝓮 𝓷𝓪𝓶𝓮>: 𝓹𝓶'𝓼 𝔂𝓸𝓾 𝓲𝓷𝓯𝓸 𝓪𝓫𝓸𝓾𝓽 𝓽𝓱𝓪𝓽 𝓶𝓸𝓭𝓾𝓵𝓮.
@@ -67,9 +67,7 @@ def vercheck() -> str:
 
 
 SOURCE_STRING = """
-⚡I'm built in python3, using the python-telegram-bot library, and am fully opensource - you can find what makes me tick [here](https://github.com/feriexp/JisooXRobot)
-⚡You Can Clone Me [Here](https://heroku.com/deploy?template=https://github.com/feriexp/JisooXRobot.git)
-"""
+ ✘ 𝓲'𝓶 𝓫𝓾𝓲𝓵𝓽 𝓲𝓷 𝓹𝔂𝓽𝓱𝓸𝓷3, 𝓪𝓷𝓭 [𝓳𝓸𝓲𝓷](t.me/DARKAMANSUPPORT)
 
 
 IMPORTED = {}
@@ -87,7 +85,7 @@ GDPR = []
 
 START_IMG = os.environ.get('START_IMG', None)
 if START_IMG is None:
-    img = "https://telegra.ph/file/7b375b3abb0b483fd0d98.jpg"
+    img = "https://te.legra.ph/file/c95f4ae97232f2675e081.jpg"
 else:
   img = START_IMG    
     
