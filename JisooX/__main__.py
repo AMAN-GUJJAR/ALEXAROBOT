@@ -41,24 +41,19 @@ from JisooX.modules.connection import connect_button
 
 
 PM_START_TEXT = """
-_Hello_ *{}*
-_My name is_ *{}*\n_A Powerful Telegram ProBot to Manage Your Groups,feel free to add to your groups!!_
-_Maintained by_ [{}](tg://user?id={})
+[🌸](https://te.legra.ph/file/f0256f513f0d27cb74d65.jpg) *{}* 𝓱𝓮𝔂 𝓽𝓱𝓮𝓻𝓮 𝓶𝔂 𝓷𝓪𝓶𝓮 𝓲𝓼 *{}* 𝓲 𝓪𝓶 𝓪 𝓹𝓸𝔀𝓮𝓻𝓯𝓾𝓵𝓵 𝓽𝓮𝓵𝓮𝓰𝓻𝓪𝓶 𝓶𝓪𝓷𝓪𝓰𝓮𝓻 𝓫𝓸𝓽 𝔀𝓲𝓽𝓱 𝓬𝓸𝓸𝓵 𝓶𝓸𝓭𝓾𝓵𝓮𝓼. 𝓯𝓮𝓵𝓵 𝓯𝓻𝓮𝓮 𝓽𝓸 𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹𝓼 𝓱𝓲𝓽 𝓱𝓮𝓵𝓹 𝓫𝓾𝓽𝓽𝓸𝓷 𝓽𝓸 𝓴𝓷𝓸𝔀 𝓶𝔂 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼🌸_
+_𝓶𝓪𝓲𝓷𝓽𝓪𝓲𝓷𝓮𝓭 𝓫𝔂_ [{}](tg://user?id={})
 """
 
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
-the things I can help you with.
-*Main* commands available:
- 💠 - /start: start the bot
- 💠 - /help: PM's you this message.
- 💠 - /help <module name>: PM's you info about that module.
- 💠 - /source: Information about my source.
- 💠 - /settings:
-   🔹 - in PM: will send you your settings for all supported modules.
-   🔹 - in a group: will redirect you to pm, with all that chat's settings.
+[🌸](https://te.legra.ph/file/cc60deee8b07c04c28bef.jpg) 𝓱𝓮𝔂 𝓽𝓱𝓮𝓻𝓮 𝓶𝔂 𝓷𝓪𝓶𝓮 𝓲𝓼 *{}* 𝓲 𝓪𝓶 𝓪 𝓹𝓸𝔀𝓮𝓻𝓯𝓾𝓵𝓵 𝓽𝓮𝓵𝓮𝓰𝓻𝓪𝓶 𝓶𝓪𝓷𝓪𝓰𝓮𝓻 𝓫𝓸𝓽 𝔀𝓲𝓽𝓱 𝓬𝓸𝓸𝓵 𝓶𝓸𝓭𝓾𝓵𝓮𝓼.𝓲𝓯 𝓯𝓪𝓬𝓲𝓷𝓰 𝓪𝓷𝔂 𝓲𝓼𝓼𝓾𝓮 [𝓳𝓸𝓲𝓷](t.me/DARKAMANSUPPORT)🌸
+ ✘ /start ➪ 𝓼𝓽𝓪𝓻𝓽 𝓽𝓱𝓮 𝓫𝓸𝓽
+ ✘ /help ➪ 𝓹𝓶'𝓼 𝔂𝓸𝓾 𝓽𝓱𝓲𝓼 𝓶𝓮𝓼𝓼𝓪𝓰𝓮.
+ ✘ /help ➪ <𝓶𝓸𝓭𝓾𝓵𝓮 𝓷𝓪𝓶𝓮>: 𝓹𝓶'𝓼 𝔂𝓸𝓾 𝓲𝓷𝓯𝓸 𝓪𝓫𝓸𝓾𝓽 𝓽𝓱𝓪𝓽 𝓶𝓸𝓭𝓾𝓵𝓮.
+ ✘ /settings ➪
+   ☘︎  𝓲𝓷 𝓹𝓶 ➪ 𝔀𝓲𝓵𝓵 𝓼𝓮𝓷𝓭 𝔂𝓸𝓾 𝔂𝓸𝓾𝓻 𝓼𝓮𝓽𝓽𝓲𝓷𝓰𝓼 𝓯𝓸𝓻 𝓪𝓵𝓵 𝓼𝓾𝓹𝓹𝓸𝓻𝓽𝓮𝓭 𝓶𝓸𝓭𝓾𝓵𝓮𝓼.
+   ☘︎  𝓲𝓷 𝓪 𝓰𝓻𝓸𝓾𝓹 ➪ 𝔀𝓲𝓵𝓵 𝓻𝓮𝓭𝓲𝓻𝓮𝓬𝓽 𝔂𝓸𝓾 𝓽𝓸 𝓹𝓶 𝔀𝓲𝓽𝓱 𝓪𝓵𝓵 𝓽𝓱𝓪𝓽 𝓬𝓱𝓪𝓽'𝓼 𝓼𝓮𝓽𝓽𝓲𝓷𝓰𝓼.
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
